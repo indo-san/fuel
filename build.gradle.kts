@@ -26,6 +26,12 @@ allprojects {
     }
 }
 
+buildscript {
+    dependencies {
+        classpath("com.github.dcendents:android-maven-gradle-plugin:2.1")
+    }
+}
+
 val androidModules = listOf("fuel-android", "fuel-livedata", "fuel-stetho")
 val androidSampleModules = listOf("sample")
 val testModules = listOf("fuel-test")
