@@ -7,7 +7,6 @@ import com.github.kittinunf.fuel.core.Parameters
 import com.github.kittinunf.fuel.core.RequestTransformer
 import java.net.URL
 import java.net.URLEncoder
-import javax.annotation.meta.When
 
 object ParameterEncoder : FoldableRequestInterceptor {
     override fun invoke(next: RequestTransformer): RequestTransformer {
